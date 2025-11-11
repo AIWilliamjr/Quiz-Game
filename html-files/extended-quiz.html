@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <title>Extended Quiz</title>
+  <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="/quiz-css/extended-quiz.css" rel="stylesheet">
+</head>
+  <body>
+    <div id="header">
+      <h1>Animal + Nature Challenge</h1>
+      <h2>Lets Go!</h2>
+    </div>  
+    <hr>
+  <form>
+    <section>
+      <h3>What is the most populous group of Animals?</h3> <!--the answer is insects.-->
+      <ul>
+        <li><label for="birds">Birds</label> <!--the label tag of a form to declare a label for the input type-->
+              <input id="birds" type="radio" name="group" value="birds"></li>
+        <li><label for="fish">Fish</label>
+              <input id="fish" type="radio" name="group" value="fish"></li>
+        <li><label for="insects">Insects</label>
+              <input id="insects" type="radio" name="group" value="insects"></li>
+        <li><label for="mamals">Mamals</label>
+              <input id="mamals" type="radio" name="group" value="mamals"></li>
+      </ul>
+        <hr>
+      <h3>Dogs can smile but what are all the signs of this facial expression?</h3><br> <!--reference: https://a-z-animals.com/pets/dogs/dog-facts/reasons-dogs-smile/-->
+         <p>Please tick all the correct boxes bellow;</p> <!--the answer is relaxed-face, no tension around mouth corners may be turned up a little, mouth partially opened & panting-->
+      <ul>
+        <li><label for="relaxed">Relaxed Face</label>
+              <input id="relaxed" type="checkbox" name="signs" value="relaxed-face"></li>
+        <li><label for="no-tension">No Tension around Mouth & corners may be turned up a little</label>
+              <input id="no-tension" type="checkbox" name="signs" value="no-tension"></li>
+        <li><label for="blinking">Blinking Multiple Times</label>
+              <input id="blinking" type="checkbox" name="signs" value="blinking"></li>
+        <li><label for="mouth-opened">Mouth Partially Opened</label>
+              <input id="mouth-opened" type="checkbox" name="signs" value="mouth-opened"></li>
+        <li><label for="panting">Panting</label>
+              <input id="panting" type="checkbox" name="signs" value="panting"></li>
+      </ul>
+        <hr>
+      <h3>What insect has the most amount of legs?</h3> <!--the answer is millipedes-->
+      <ul>
+        <li><label for="spider">Spider</label>
+              <input id="spider" type="radio" name="legs" value="spider"></li>
+        <li><label for="silver-fish">Silver Fish</label>
+              <input id="silver-fish" type="radio" name="legs" value="silver-fish"></li>
+        <li><label for="millipedes">Millipedes</label>
+            <input id="millipedes" type="radio" name="legs" value="millipedes"></li>
+        <li><label for="centipedes">Centipedes</label>
+              <input id="centipedes" type="radio" name="legs" value="centipedes"></li>
+      </ul>
+        <hr>
+    </section>
+  </form>
+
+  <a href="../quiz.html">Home Page</a> <!--link syntax to exit outside of the folder-->
+  </body>
+
+</html>
