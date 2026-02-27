@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgba(9, 16, 52, 0.854);
+    color: #FFF;
+}
+
+h1 {
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: rgba(82, 86, 85, 0.525);
+    background-image: url(/assets/cheetah.jpg); 
+    background-size: cover;
+    background-position: relative;
+}
+
+main {
+    position: relative;
+    top: 150px;
+}
+
+li {
+    line-height: 2em;
+    color: #FFF;
+}
+
+.how-to {
+    margin: 0px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #FFF;
+}
+
+a {
+    position: relative;
+    margin: 0px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+@media (max-width: 500px) {
+    body {
+        width: 100%;
+        background-color: rgba(82, 86, 85, 0.525);
+        background-image: none;
+    }
+    
+    .header {
+        height: 120px;
+        width: 100%;
+    }
+    main {
+        position: relative;
+        font-size: 20px;
+    }
+}

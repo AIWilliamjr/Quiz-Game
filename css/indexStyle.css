@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 135px;
+    text-align: center;
+    color: white;
+    /*background-color: rgba(112, 227, 166, 0.788);*/
+}   
+
+header, footer {
+    background-color: rgba(9, 16, 52, 0.854);
+    /*background-color: rgba(112, 227, 166, 0.788);*/
+}
+
+#title {
+    margin: 0 auto;
+    width: 1000px;
+    /*padding: 40px 0px 0px 0px;*/
+    font-size: 35px;
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+nav ul {
+    position: relative;
+    bottom: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav li {
+    display: inline-block;
+    width: 130px;
+    padding: 0px 5px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgba(17, 191, 14, 0.368);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+main {
+    position: relative;
+    top: 135px;
+    background-color: rgba(82, 86, 85, 0.525);
+    background-image: url('/assets/river.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: italic;
+    font-size: 20px;
+    /*border: 2px solid black;*/
+}
+
+section {
+    margin: 0 auto;
+    padding: 20px 0px;
+    max-width: 500px;
+    color: white;
+}
+
+figure {
+    color: white;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    left: 850px;
+}
+
+img.deer {
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: -113px;
+    z-index: 1;
+    padding: 0px 10px;
+    color: #FFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+}
+
+@media (max-width: 500px) {
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        /*width: 328px;*/
+        text-align: center;
+        height: 123px;
+    }
+
+    #title {
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        font-size: 16px;
+    }
+
+    nav ul {
+        position: relative;
+        top: 0px;
+        font-size: 12px;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    main {
+        height: 781px;
+        position: relative;
+        top: 122px;
+        font-size: 14px;
+    }
+
+    section {
+        position: relative;
+        top: 70px;
+        width: 300px;
+    }
+
+    figure {
+        position: relative;
+        top: 80px;
+        left: 120px;
+    }
+
+    img.deer {
+        width: 150px;
+        height: 125px;
+    }
+
+    footer {
+        bottom: -108px;
+        font-size: 10px;
+    }
+}

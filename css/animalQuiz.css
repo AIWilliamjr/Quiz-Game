@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    text-align: center;
+    height: 120px;
+    background-color: #000;
+    color: #FFF;
+    
+    @media (min-width: 500px) {
+    #header {
+        height: 140px;
+    }
+  }
+}
+
+body {
+    background-color: rgba(82, 86, 85, 0.525);
+}
+
+h1 {
+    width: 100%;
+    font-size: 30px;
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    /* margin: 0px; */
+    margin: 10px auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#answer-form {
+    margin: 200px auto;
+    margin-bottom: 100px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    width: 650px;
+    height: 480px;
+    background-color: rgba(9, 16, 52, 0.854);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#question {
+    margin: 10px auto;
+    padding: 10px 0px 10px 10px;
+    width: 610px;
+    height: 70px;
+    border-radius: 3px;
+    background-color: #000;
+    color: #FFF;
+}
+
+#answers {
+    margin: 70px auto;
+    list-style-type: none;
+    line-height: 2em;
+    width: 400px;
+    padding-left: 10px;
+    background-color: #FFF;
+    color: #000;
+}
+
+#submit {
+    padding: 5px;
+    position: absolute;
+    margin: 0px 450px;
+}
+
+#answers,
+#submit {
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+a {
+    position: absolute;
+    bottom: -100px;
+    left: 465px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+#results {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    h1 {
+        width: 100%;
+    }
+}

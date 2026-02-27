@@ -4,11 +4,12 @@
             <meta charset="utf-8"/>
             <meta name="keywords" content="quiz, pop quiz, challenge, brain challenge"> 
             <meta name="description" content="You're welcomed to come and test how well your knowledge is in the ultimate brain challenge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
             <title>Game Quiz</title> <!--title displays the name of the page on the tab-->
             <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
             <link href="css/normalize.css" rel="stylesheet">
-            <link href='css/quizStyle.css' rel='stylesheet'>
+            <link href='css/indexStyle.css' rel='stylesheet'>
             
     </head>
         <body>
@@ -16,14 +17,23 @@
             <h1 id="title">Welcome to the Animal Quiz Game</h1>
           <nav>
                 <ul>
-                    <li><a class="h-link" href='components/about.html'>About</a></li>
-                    <li><a class="h-link" href='components/extendedQuiz.html'>Extended Quiz</a></li>
-                    <li><a class="h-link" href='#'>Pop Quiz</a></li>
+                    <li>
+                    <a class="h-link" href='components/how-to.html'>About/How To
+                    </a>
+                    </li>
+
+                    <li>
+                    <a class="h-link" href='components/animalQuiz.html'>Animal Quiz
+                    </a>
+                    </li>
+                    
                     <li><label for="account"></label>
                       <select id="account" name="account">
-                        <option value="log-in"><a class="h-link" href="#">Log In</a></option>
-                        <option value="sign-up"><a class="h-link" href="#" target="_blank">Sign Up</a></option>
-                      </select></li>
+                      <option value="log-in">
+                      <a class="h-link" href="#">Log In</a></option>
+                      <option value="sign-up"><a class="h-link" href="#" target="_blank">Sign Up</a></option>
+                      </select>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -35,11 +45,9 @@
                 about <em>Animals + Nature.</em></p>
 
               <h2>Quiz Types</h2>
-                <p>There are <a class="quiz-type none" href='#title'><em>Two Quiz Types</em></a> to choose from above on top of the page, one being the <strong>Extended Quiz</strong> with 
-                   10 multiple choice questions.<br>
-                   The other option is a <strong>Pop Quiz</strong> for a quick brainstorm. Take on the challenge and race against time by 
-                   answering 10 multiple-choice questions as quickly and accurately as possible in the Animal Quiz. Your score will be displayed upon completing any
-                   of the quiz you play.</p>
+                <p>10 multiple choice questions to challenge the user's animal IQ.<br>
+                   Take on the challenge by answering 10 multiple-choice questions as accurately as possible in the Animal Quiz. Your score will be displayed upon completing any
+                   the quiz.</p>
             </section>
             <figure>
                 <figcaption>Animals are one of the most amazing things on this planet. Take this deer for instance, not just it's appearance
@@ -48,7 +56,6 @@
                 <br>
                 <img class="deer" src="/Assets/deer-nature.jpg" alt="A Deer" height="150px" width="230px" />
             </figure>
-        
           </main>
 
           <footer>
@@ -56,7 +63,7 @@
             <p><strong>Tel:</strong> <em>07931740572</em> <strong>Email: </strong><em>w.jrose24@gmail.com</em></p>
           </footer>
         <!--<a href="#top">Top of page</a>-->
-      <script src="js/main.js"></script>
+        <!--<script src="js/main.js"></script>-->
         </body>
 
  </html>
