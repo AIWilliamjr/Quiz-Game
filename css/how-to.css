@@ -1,80 +1,80 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .header {
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    height: 90px;
-    border: 2px solid #000;
-    border-radius: 2px;
-    text-align: center;
-    background-color: rgba(9, 16, 52, 0.854);
-    color: #FFF;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 90px;
+  border: 2px solid #000;
+  border-radius: 2px;
+  text-align: center;
+  background-color: rgba(9, 16, 52, 0.854);
+  color: #fff;
 }
 
 h1 {
-    font-family: "BBH Sans Bartle", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'BBH Sans Bartle', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
-    background-color: rgba(82, 86, 85, 0.525);
-    background-image: url(/assets/cheetah.jpg); 
-    background-size: cover;
-    background-position: relative;
+  background-color: rgba(82, 86, 85, 0.525);
+  background-image: url(/assets/cheetah.jpg);
+  background-size: cover;
+  background-position: relative;
 }
 
 main {
-    position: relative;
-    top: 150px;
+  position: relative;
+  top: 150px;
 }
 
 li {
-    line-height: 2em;
-    color: #FFF;
+  line-height: 2em;
+  color: #fff;
 }
 
 .how-to {
-    margin: 0px 10px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
-    color: #FFF;
+  margin: 0px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #fff;
 }
 
 a {
-    position: relative;
-    margin: 0px 10px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
+  position: relative;
+  margin: 0px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 a:hover {
-    color: #FFF;
+  color: #fff;
 }
 
 @media (max-width: 500px) {
-    body {
-        width: 100%;
-        background-color: rgba(82, 86, 85, 0.525);
-        background-image: none;
-    }
-    
-    .header {
-        height: 120px;
-        width: 100%;
-    }
-    main {
-        position: relative;
-        font-size: 20px;
-    }
+  body {
+    width: 100%;
+    background-color: rgba(82, 86, 85, 0.525);
+    background-image: none;
+  }
+
+  .header {
+    height: 120px;
+    width: 100%;
+  }
+  main {
+    position: relative;
+    font-size: 20px;
+  }
 }
