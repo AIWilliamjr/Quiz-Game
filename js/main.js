@@ -1,6 +1,6 @@
 addEventListener('DOMContentLoaded', (event) => {
   // The questions need to be in random order every time the quiz loads the questions consecutively.
-  // To do this I used array method sort on the questionData array to sort it in random order. The sort method will compare 0.5 as a value lower than Math.random.
+  // To do this I used array method sort on the questionData array to sort it in random order. the function passed to .sort() look for either a positive or negative number to move the item either ‘up’ or ‘down’ in the array, each item has a chance of being moved in either direction giving a shuffled array of items.
   questionData.sort((a, b) => 0.5 - Math.random());
   console.log(questionData);
   displayQuestion();

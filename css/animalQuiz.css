@@ -8,15 +8,9 @@
   z-index: 1;
   top: 0px;
   text-align: center;
-  height: 120px;
+  height: 100px;
   background-color: #000;
   color: #fff;
-
-  @media (min-width: 500px) {
-    #header {
-      height: 140px;
-    }
-  }
 }
 
 body {
@@ -31,17 +25,16 @@ h1 {
   font-style: normal;
 }
 
-h2 {
-  /* margin: 0px; */
-  margin: 10px auto;
+/* h2 {
+  margin: 0px auto;
   font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 #answer-form {
-  margin: 200px auto;
+  margin: 150px auto;
   margin-bottom: 50px;
   border: 2px solid #000;
   border-radius: 3px;
