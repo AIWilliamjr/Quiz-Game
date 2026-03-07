@@ -99,7 +99,7 @@ Everyone.
 
 ![css validility checks](/screenshots/css-checker.png)
 
-- The javascript file passed validation using JSHint with 27 minor warnings stating ES6 is being used in the file.
+- The javascript file passed validation using JSHint with 27 minor warnings stating ES6 syntax is being used in the file.
 
 ![javascrip checks](/screenshots/javascript-checker.png)
 
