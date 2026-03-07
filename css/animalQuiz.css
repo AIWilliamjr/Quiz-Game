@@ -42,7 +42,6 @@ h1 {
   height: 480px;
   background-color: rgba(9, 16, 52, 0.854);
   font-family: 'Montserrat', sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
@@ -85,7 +84,6 @@ a {
   bottom: -50px;
   left: 100px;
   font-family: 'Montserrat', sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
@@ -101,7 +99,6 @@ a:hover {
   top: 300px;
   left: 100px;
   font-family: 'Montserrat', sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;

@@ -25,7 +25,7 @@ body {
   background-color: rgba(82, 86, 85, 0.525);
   background-image: url(/assets/cheetah.jpg);
   background-size: cover;
-  background-position: relative;
+ background-position: top;
 }
 
 main {
@@ -41,7 +41,6 @@ li {
 .how-to {
   margin: 0px 10px;
   font-family: 'Montserrat', sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
@@ -52,7 +51,6 @@ a {
   position: relative;
   margin: 0px 10px;
   font-family: 'Montserrat', sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
