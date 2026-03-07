@@ -1,4 +1,4 @@
-# Project 3 - online quiz
+# Project 1 - Online Quiz
 
 ## Project Brief
 
