@@ -81,7 +81,7 @@ Everyone.
 
 ## Testing
 
-- The website was tested on Chrome using in-built dev tools to ensure functionality, responsiveness and appearance:
+- The website was tested on Chrome & Microsoft Edge using in-built dev tools to ensure functionality, responsiveness and appearance:
 
 - Chrome:
   ![chrome web page](/screenshots/chrome-web-page-testing.png)
