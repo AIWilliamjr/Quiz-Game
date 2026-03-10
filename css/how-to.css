@@ -23,7 +23,7 @@ h1 {
 
 body {
   background-color: rgba(82, 86, 85, 0.525);
-  background-image: url(/assets/cheetah.jpg);
+  background-image: url(../assets/cheetah.jpg);
   background-size: cover;
  background-position: top;
 }
