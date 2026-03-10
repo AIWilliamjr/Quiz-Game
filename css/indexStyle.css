@@ -61,7 +61,7 @@ main {
   position: relative;
   top: 135px;
   background-color: rgba(82, 86, 85, 0.525);
-  background-image: url('/assets/river.jpg');
+  background-image: url('../assets/river.jpg');
   background-size: cover;
   background-position: center;
   font-family: 'Josefin Sans', sans-serif;
