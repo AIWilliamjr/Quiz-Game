@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgba(45, 47, 45, 0.628);
+}
+
 .header {
   position: absolute;
   width: 100%;
@@ -21,16 +25,9 @@ h1 {
   font-style: normal;
 }
 
-body {
-  background-color: rgba(82, 86, 85, 0.525);
-  background-image: url(../assets/cheetah.jpg);
-  background-size: cover;
- background-position: top;
-}
-
 main {
   position: relative;
-  top: 150px;
+  top: 130px;
 }
 
 li {
@@ -63,8 +60,6 @@ a:hover {
 @media (max-width: 500px) {
   body {
     width: 100%;
-    background-color: rgba(82, 86, 85, 0.525);
-    background-image: none;
   }
 
   .header {
