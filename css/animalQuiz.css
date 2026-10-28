@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +7,8 @@
   position: fixed;
   width: 100%;
   z-index: 1;
-  top: 0px;
+  top: 0;
+  left: 0;
   text-align: center;
   height: 100px;
   background-color: #000;
@@ -14,6 +16,7 @@
 }
 
 body {
+  margin: 0;
   background-color: rgba(45, 47, 45, 0.628);
 }
 
@@ -34,12 +37,13 @@ h1 {
 } */
 
 #answer-form {
-  margin: 150px auto;
-  margin-bottom: 50px;
+  margin: 150px auto 50px;
   border: 2px solid #000;
   border-radius: 3px;
-  width: 650px;
-  height: 480px;
+  width: min(650px, calc(100% - 24px));
+  min-height: 480px;
+  height: auto;
+  padding: 10px;
   background-color: rgba(9, 16, 52, 0.854);
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -49,28 +53,32 @@ h1 {
 
 #question {
   margin: 10px auto;
-  padding: 10px 0px 10px 10px;
-  width: 610px;
-  height: 70px;
+  padding: 10px;
+  width: 100%;
+  min-height: 70px;
+  height: auto;
   border-radius: 3px;
   background-color: #000;
   color: #fff;
+  overflow-wrap: break-word;
 }
 
 #answers {
-  margin: 70px auto;
+  margin: 40px auto;
   list-style-type: none;
   line-height: 2em;
-  width: 400px;
-  padding-left: 10px;
+  width: 100%;
+  padding: 0 10px;
   background-color: #fff;
   color: #000;
+  overflow-wrap: break-word;
 }
 
 #submit {
   padding: 5px;
-  position: absolute;
-  margin: 0px 450px;
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
 }
 
 #answers,
@@ -80,13 +88,14 @@ h1 {
 }
 
 a {
-  position: absolute;
-  bottom: -50px;
-  left: 100px;
+  position: static;
+  display: block;
+  margin: 20px 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+  overflow-wrap: break-word;
 }
 
 a:hover {
@@ -95,21 +104,69 @@ a:hover {
 
 #results {
   display: none;
-  position: absolute;
-  top: 300px;
-  left: 100px;
+  position: static;
+  margin: 20px 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+  overflow-wrap: break-word;
 }
 
-@media (min-width: 500px) {
+/* Tablets and mobile devices */
+@media (max-width: 700px) {
   #header {
-    width: 100%;
+    height: auto;
+    min-height: 100px;
   }
 
   h1 {
-    width: 100%;
+    font-size: clamp(22px, 5vw, 30px);
+    overflow-wrap: break-word;
+  }
+
+  #answer-form {
+    margin-top: 125px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  #results {
+    font-size: 24px;
+  }
+}
+
+/* Narrow phones and narrow foldable screens */
+@media (max-width: 350px) {
+  #header {
+    min-height: 90px;
+  }
+
+  h1 {
+    font-size: 21px;
+  }
+
+  #answer-form {
+    margin-top: 110px;
+    width: calc(100% - 16px);
+    padding: 8px;
+    font-size: 17px;
+  }
+
+  #question {
+    padding: 8px;
+  }
+
+  #answers {
+    padding: 0 6px;
+    line-height: 1.8em;
+  }
+
+  #results {
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 17px;
   }
 }
