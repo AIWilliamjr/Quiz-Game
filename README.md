@@ -8,6 +8,7 @@
 
 ## Targets
 
+- User readability will be easy
 - Users will be able to understand the purpose of the site from the main page
 - Users will be able to navigate through the website easy
 - Users will be able to decide whether they want to start the quiz straight away or navigate to the HowTo page for more information on how to take the quiz
@@ -34,7 +35,7 @@ Everyone.
 
 ![Heading](/screenshots/heading.png 'This is the heading of the website')
 
-- A brief description is provided on the main page to help guide the user.
+- A brief description of what the website is about is provided on the main page to help guide the user understand it's intensions. Appropriate colours were selected for the background for background readability.
 
 ![brief description](/screenshots/brief-description.png)
 
