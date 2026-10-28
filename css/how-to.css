@@ -3,71 +3,139 @@
 }
 
 body {
+  margin: 0;
   background-color: rgba(45, 47, 45, 0.628);
 }
 
 .header {
   position: absolute;
   width: 100%;
-  top: 0px;
-  left: 0px;
-  height: 90px;
+  top: 0;
+  left: 0;
+  min-height: 90px;
   border: 2px solid #000;
   border-radius: 2px;
   text-align: center;
   background-color: rgba(9, 16, 52, 0.854);
   color: #fff;
+  padding: 10px;
 }
 
 h1 {
   font-family: 'BBH Sans Bartle', sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow-wrap: break-word;
 }
 
 main {
   position: relative;
   top: 130px;
+  width: 100%;
+  padding: 0 10px 30px;
 }
 
 li {
   line-height: 2em;
   color: #fff;
+  overflow-wrap: break-word;
 }
 
 .how-to {
-  margin: 0px 10px;
+  margin: 0 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
   color: #fff;
+  overflow-wrap: break-word;
 }
 
 a {
   position: relative;
-  margin: 0px 10px;
+  margin: 0 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+  overflow-wrap: break-word;
 }
 
 a:hover {
   color: #fff;
 }
 
+/* Tablets */
+@media (max-width: 900px) {
+  .header {
+    min-height: 90px;
+  }
+
+  main {
+    top: 110px;
+  }
+
+  .how-to {
+    font-size: 22px;
+  }
+}
+
+/* Mobile phones */
 @media (max-width: 500px) {
   body {
     width: 100%;
   }
 
   .header {
-    height: 120px;
-    width: 100%;
+    min-height: 100px;
+    padding: 8px;
   }
+
+  h1 {
+    font-size: clamp(20px, 5vw, 28px);
+  }
+
   main {
-    position: relative;
+    top: 110px;
+    padding: 0 8px 25px;
+  }
+
+  li {
+    line-height: 1.8em;
+  }
+
+  .how-to {
+    margin: 0 4px;
+    font-size: 18px;
+  }
+
+  a {
+    margin: 0 4px;
+    font-size: 17px;
+  }
+}
+
+/* Narrow phones and foldable screens */
+@media (max-width: 350px) {
+  .header {
+    min-height: 90px;
+  }
+
+  h1 {
     font-size: 20px;
+  }
+
+  main {
+    top: 100px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .how-to {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 16px;
   }
 }
