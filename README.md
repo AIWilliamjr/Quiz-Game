@@ -8,7 +8,7 @@
 
 ## Targets
 
-- User readability will be easy
+- User readability will be simple
 - Users will be able to understand the purpose of the site from the main page
 - Users will be able to navigate through the website easy
 - Users will be able to decide whether they want to start the quiz straight away or navigate to the HowTo page for more information on how to take the quiz
