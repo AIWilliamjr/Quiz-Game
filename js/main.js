@@ -153,8 +153,8 @@ const displayQuestion = () => {
     input.setAttribute('type', 'checkbox');
     input.setAttribute('value', a);
     input.setAttribute('name', 'checkbox-value');
-    listItem.appendChild(label);
-    listItem.appendChild(input);
+    listItem.appendChild(label).style.margin = '0px 0px 0px 10px'; //styling to added to label text
+    listItem.appendChild(input).style.margin = '0px 0px 0px 40px'; //styling added to checkboxes
     unorderedList.appendChild(listItem);
   });
 
@@ -165,8 +165,8 @@ const displayQuestion = () => {
   var input = document.createElement('input');
   input.setAttribute('type', 'checkbox');
   input.setAttribute('value', correctAnswer);
-  listItem.appendChild(label);
-  listItem.appendChild(input);
+  listItem.appendChild(label).style.margin = '0px 0px 0px 10px'; //styling added to text label
+  listItem.appendChild(input).style.margin = '0px 0px 0px 40px'; //styling added to checkbox
   unorderedList.appendChild(listItem);
 
   section.appendChild(question);
